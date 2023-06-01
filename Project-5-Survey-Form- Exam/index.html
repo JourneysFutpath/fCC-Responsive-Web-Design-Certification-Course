@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="ie=edge">
+    <meta name="description" content="Feedback Survey">
+    <title>Feedback Survey</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="C:\Users\Shayn\source\repos\My Website\Company Images\Logo Design\JourneysFootpathAIGirlWithoutBackgroundPNG\Resized8.png" />
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+        <a><img src="C:\Users\Shayn\source\repos\My Website\Company Images\Logo Design\JourneysFootpathAIGirlWithoutBackgroundPNG\Cropped9.png" alt="Logo" width="50%" ></a>
+        <h1>I want to hear from <i>you</i>!</h1>
+    </header>
+    <main>
+        <section id="form-wrapper">
+            <form id="survey-form" action="index.html" method="post">
+                <section>
+                    <label class="userinfowrapper" name="userinfowrapper"></label>
+                    <h3><strong>Tell me about yourself.</strong></h3>
+                <section>
+                    <label for="name"><strong>Name:</strong></label>
+                    <input type="text" name="name" id="name" placeholder="Enter your name" required>
+                </section>
+                <section>
+                    <label for="email"><strong>Email:</strong></label>
+                    <input type="email" name="email" id="email" placeholder="Enter your email" required>
+                </section>
+                <section>
+                    <label for="age"><strong>Age:</strong></label>
+                    <input type="number" name="age" id="age" placeholder="Enter your age" min="18" max="100" required>
+                </section>
+            </section>
+                <section>
+                    <label for="role"><strong>Which option best describes what you do with your time during the week?</strong></label>
+                    <select name="role" id="role" required>
+                        <option value="1">Select One</option>
+                        <option value="2">Full-Time Student</option>
+                        <option value="3">Part-Time Student</option>
+                        <option value="4">Employed Full Time</option>
+                        <option value="5">Employed Part Time</option>
+                        <option value="6">Self-Employed</option>
+                        <option value="7">Entrepenuer</option>
+                        <option value="8">Prefer Not To Say</option>
+                    </select>
+                </section>
+                <section>
+                    <label for="referrer"><strong>How'd you find me?</strong></label>
+                    <select name="referrer" id="referrer" required>
+                        <option value="1.1">Select One</option>
+                        <option value="2.1">A Shopping Platform</option>
+                        <option value="3.1">A Traditional Big Tech Social Media Platform</option>
+                        <option value="4.1">A Video/Audio Streaming Platform</option>
+                        <option value="5.1">A Work Related Platform</option>
+                        <option value="6.1">A Search Engine</option>
+                        <option value="7.1">A Blogging Platform</option>
+                        <option value="8.1">A Gaming Platform</option>                            <option value="9.1">Prefer Not To Say</option> 
+                    </select>
+                </section>
+                <section>
+                    <label id="feedback" class="commentbox" name="commentbox"></label>
+                    <legend><strong>Comments & Suggestions:</strong></legend>  
+                    <textarea for="feedback" id="commentbox"  cols="50" rows="5" placeholder="Your feedback & constructive critism is critical! So, tell me what you really think">                        
+                </textarea>    
+                </section>  
+                <section>
+                    <legend for="recomend"><strong>Would you recommend me to a friend?</strong></legend>
+                    <label for="yes"> Yes <input type="radio" name="recommend" value="yes" id="affirmative" class="inline"/></label>
+                    <label for="no"> No <input type="radio" name="recommend" value="no" id="negative" class="inline"/></label>
+                </section>
+                <section>
+                    <label for="contact"><strong>Would you like to be contacted by me?</strong></label>
+                    <input type="checkbox" name="contact" value="yes" id="yes" class="inline" checked>
+                    <label for="yes">Yes</label>
+                    <input type="checkbox" name="contact" value="no" id="no" class="inline">
+                    <label for="no">No</label>
+                </section>
+                <section>
+                    <label>
+                        <button type="submit" id="submit" class="glow-on-hover" type="button"><strong>Click here to let Journey know what you think!</strong></button>
+                    </label>
+                </section>  
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Journey's Footpath &copy; Est 2021</p>
+        <p><a href="mailto:journey@journeysfootpath.com">Email me!</a></p>
+    </footer>
+</body>
+</html>    

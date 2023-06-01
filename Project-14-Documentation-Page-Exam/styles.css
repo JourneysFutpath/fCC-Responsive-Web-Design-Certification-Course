@@ -1,0 +1,35 @@
+header {
+    font-weight: bold;
+}
+code {
+    font-display: wrap;
+    background-color: lightgray;
+    border-radius: 2px;
+    position: relative;
+    border-color: dimgray;
+    border-style: solid;
+    border-width: 1px;
+}
+
+li {
+    margin: 10;
+    padding-left: 10px;
+}
+
+li .disc {
+    list-style-type: disc;
+}
+
+li .disc, .circle {
+    margin-left: 20px;
+}
+
+ul {
+    list-style-type: disc;
+}
+
+@media (max-width: 600px) {
+    ul {
+        list-style-type: disc;
+    }
+}
